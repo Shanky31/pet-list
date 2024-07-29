@@ -1,0 +1,22 @@
+/* src/App.css */
+.iconButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.iconButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.leftIconButton {
+  left: 10px;
+}
+
+.rightIconButton {
+  right: 10px;
+}
